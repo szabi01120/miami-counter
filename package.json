@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "deploy": "vite build && gh-pages -d dist"
   },
-  "homepage": "https://GITHUBFELHASZNALONED.github.io/miami-counter",
+  "homepage": "https://szabi01120.github.io/miami-counter",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
