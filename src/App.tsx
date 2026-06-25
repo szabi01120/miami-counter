@@ -5,7 +5,7 @@ import Szabi from './pages/Szabi'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/miami-counter">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/niki" element={<Niki />} />
