@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { font-family: 'Nunito', sans-serif; }
+body { margin: 0; padding: 0; }
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-12px); }
+}
+@keyframes pulse-heart {
+  0%, 100% { transform: scale(1); }
+  50%       { transform: scale(1.15); }
+}
+
+.float-anim  { animation: float       3s   ease-in-out infinite; }
+.heart-pulse { animation: pulse-heart 1.2s ease-in-out infinite; }
+
+.countdown-card {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.6);
+  border: 2px solid rgba(255, 182, 193, 0.5);
+}
+.clock-card {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.55);
+  border: 2px solid rgba(255, 182, 193, 0.4);
+}
